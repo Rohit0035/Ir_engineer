@@ -1,0 +1,126 @@
+.st-logo{
+    width: 80px !important;
+}
+.fixed-contact-buttons {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-btn {
+  width: 50px;
+  height: 50px;
+  margin: 2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Individual Colors */
+.contact-btn.whatsapp {
+  background-color: #25D366;
+}
+
+.contact-btn.email {
+  background-color: #0d6efd;
+}
+
+.contact-btn.call {
+  background-color: #fbad17;
+}
+
+/* Hover Effect */
+.contact-btn:hover {
+  width: 58px;
+  color: #fff !important;
+}
+
+.st-exp {
+    line-height: 28px;
+}
+
+.fs-icon{
+  font-size: 32px !important;
+  font-weight: 700 !important;
+}
+
+ .system-icon {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background: #fff3cd; /* warning light background */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .system-icon i {
+        font-size: 32px;
+        color: #343a40; /* dark icon color */
+    }
+
+
+.ppe-section {
+  background: #f9fafb;
+}
+
+.ppe-card {
+  background: #fff;
+  padding: 25px 15px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.ppe-card i {
+  font-size: 36px;
+  color: #faa21a;
+  margin-bottom: 12px;
+}
+
+.ppe-card h6 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.ppe-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.12);
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-header .support-box p {
+     font-size: 12px;
+    }
+   .main-header .support-box h4 a {
+    font-size: 12px;
+   }
+   .main-header .support-box {
+    padding: 30px 0px 25px 56px;
+   }
+   .banner-carousel .content-box h1 {
+    font-size: 38px;
+    line-height: 42px;
+   }
+   .banner-carousel .slide-item {
+        padding: 70px 0px;
+    }
+    .feature-block-one .inner-box {
+        margin-bottom: 0px;
+        height: 230px;
+    }
+}
