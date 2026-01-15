@@ -545,17 +545,37 @@
  <section class="clients-section bg-color-1 py-5">
      <div class="auto-container">
          <div class="clients-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
-             <figure class="clients-logo-box"><a href="index.php"><img src="assets/images/com/clientlogo.png"
-                         alt=""></a></figure>
-             <figure class="clients-logo-box"><a href="index.php"><img src="assets/images/com/clientlogo.png"
-                         alt=""></a></figure>
-             <figure class="clients-logo-box"><a href="index.php"><img src="assets/images/com/clientlogo.png"
-                         alt=""></a></figure>
-             <figure class="clients-logo-box"><a href="index.php"><img src="assets/images/com/clientlogo.png"
-                         alt=""></a></figure>
-             <figure class="clients-logo-box"><a href="index.php"><img src="assets/images/com/clientlogo.png"
-                         alt=""></a></figure>
-         </div>
+            <figure class="clients-logo-box">
+                <img src="assets/images/projecct/cle-1.png" alt="">
+            </figure>
+            <figure class="clients-logo-box">
+                <img src="assets/images/projecct/cle-2.png" alt="">
+            </figure>
+            <figure class="clients-logo-box">
+                <img src="assets/images/projecct/cle-3.png" alt="">
+            </figure>
+            <figure class="clients-logo-box">
+                <img src="assets/images/projecct/cle-4.png" alt="">
+            </figure>
+            <figure class="clients-logo-box">
+                <img src="assets/images/projecct/cle-5.png" alt="">
+            </figure>
+             <figure class="clients-logo-box">
+                <img src="assets/images/projecct/cle-6.png" alt="">
+            </figure>
+             <figure class="clients-logo-box">
+                <img src="assets/images/projecct/cle-7.png" alt="">
+            </figure>
+             <figure class="clients-logo-box">
+                <img src="assets/images/projecct/cle-8.png" alt="">
+            </figure>
+             <figure class="clients-logo-box">
+                <img src="assets/images/projecct/cle-9.png" alt="">
+            </figure>
+             <figure class="clients-logo-box">
+                <img src="assets/images/projecct/cle-10.png" alt="">
+            </figure>
+        </div>
      </div>
  </section>
  <!-- clients-section end -->

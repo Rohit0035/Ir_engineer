@@ -2598,7 +2598,7 @@ div#mCSB_1_container{
   max-width: 100%;
   width: auto;
   margin: 0 auto;
-  opacity: 0.2;
+  /* opacity: 0.2; */
   transition: all 500ms ease;
 }
 

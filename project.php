@@ -107,79 +107,168 @@
 <section class="gallery-section pt-6">
     <div class="outer-container">
         <div class="gallery-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-            <div class="gallery-block-one">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <img src="assets/images/com/proj-1.jpg" alt="">
-                        <a href="assets/images/com/proj-1.jpg" class="view-btn lightbox-image"
-                            data-fancybox="gallery">+</a>
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro_brigadeschool.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro_brigadeschool.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery">Brigade School, JP Nagar</a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-one">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <img src="assets/images/com/proj-2.jpg" alt="">
-                        <a href="assets/images/com/proj-2.jpg" class="view-btn lightbox-image"
-                            data-fancybox="gallery">+</a>
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-bs-alleswaram.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-bs-alleswaram.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> Brigade School, Malleswaram</a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-one">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <img src="assets/images/com/proj-3.jpg" alt="">
-                        <a href="assets/images/com/proj-3.jpg" class="view-btn lightbox-image"
-                            data-fancybox="gallery">+</a>
+           <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-SriChait.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-SriChait.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery">  Sri Chaitanya Group of Schools (15 Schools)</a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-one">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <img src="assets/images/com/proj-4.jpg" alt="">
-                        <a href="assets/images/com/proj-4.jpg" class="view-btn lightbox-image"
-                            data-fancybox="gallery">+</a>
+           <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-oasis.jpg" alt="" class="h-100">
+                        <a href="assets/images/projecct//pro-oasis.jpg" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> Oasis International School</a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-one">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <img src="assets/images/com/proj-5.jpg" alt="">
-                        <a href="assets/images/com/proj-5.jpg" class="view-btn lightbox-image"
-                            data-fancybox="gallery">+</a>
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-ramh.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-ramh.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery">  M.S. Ramaiah Medical College</a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-one">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <img src="assets/images/com/proj-6.jpg" alt="">
-                        <a href="assets/images/com/proj-6.jpg" class="view-btn lightbox-image"
-                            data-fancybox="gallery">+</a>
+           <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-pes.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-pes.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> PES University Hospital</a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-one">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <img src="assets/images/com/proj-7.jpg" alt="">
-                        <a href="assets/images/com/proj-7.jpg" class="view-btn lightbox-image"
-                            data-fancybox="gallery">+</a>
+           <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-excel.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-excel.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> Excel Care Hospital</a>
                     </figure>
                 </div>
             </div>
-            <div class="gallery-block-one">
-                <div class="inner-box">
-                    <figure class="image-box">
-                        <img src="assets/images/com/proj-8.jpg" alt="">
-                        <a href="assets/images/com/proj-8.jpg" class="view-btn lightbox-image"
-                            data-fancybox="gallery">+</a>
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-amha.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-amha.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery">  Amaha Mental Healthcare Centre</a>
                     </figure>
                 </div>
             </div>
-            
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-sjrmall.jpg" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-sjrmall.jpg" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> SJR Spectrum Mall</a>
+                    </figure>
+                </div>
+            </div>
+            <!-- <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/per" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-bs-alleswaram.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> Prestige Park Grove</a>
+                    </figure>
+                </div>
+            </div> -->
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-spencer.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-spencer.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> Prestige Spencer Heights</a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-pristage.jpg" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-pristage.jpg" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> Prestige Eva Mal</a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-Olive.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-Olive.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> Olive Hotel, Dairy Circle</a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-Snack.jpg" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-Snack.jpg" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> Pratap Snack Factory</a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-Unioncity.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-Unioncity.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> SJR Union City</a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-plazacity.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-plazacity.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> SJR Plaza City</a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-bluewater.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-bluewater.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> SJR Blue Waters</a>
+                    </figure>
+                </div>
+            </div>
+            <div class="gallery-block-one st-project">
+                <div class="inner-box h-100">
+                    <figure class="image-box h-100">
+                        <img src="assets/images/projecct/pro-ramhparma.webp" alt="" class="h-100">
+                        <a href="assets/images/projecct/pro-ramhparma.webp" class="view-btn lightbox-image protxt"
+                            data-fancybox="gallery"> M.S. Ramaiah College of pharmacy</a>
+                    </figure>
+                </div>
+            </div>
         </div>
     </div>
 </section>

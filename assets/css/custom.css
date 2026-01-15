@@ -104,6 +104,14 @@ button.btn.btn-link {
     text-decoration: none !important;
 }
 
+.st-project{
+  height: 418px;
+}
+.protxt{
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .main-header .support-box p {

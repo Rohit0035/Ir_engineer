@@ -6,40 +6,80 @@ require 'vendor/autoload.php';
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
-    $name    = $_POST['username'];
-    $email   = $_POST['email'];
-    $phone   = $_POST['phone'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
+    $name    = htmlspecialchars($_POST['username']);
+    $email   = htmlspecialchars($_POST['email']);
+    $phone   = htmlspecialchars($_POST['phone']);
+    $subject = htmlspecialchars($_POST['subject']);
+    $message = nl2br(htmlspecialchars($_POST['message']));
 
     $mail = new PHPMailer(true);
 
     try {
-        // SMTP
+        // SMTP Configuration
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = 'nigar5678919@gmail.com';
-        $mail->Password = 'wgeiflxihwcsdxwz';
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'rohitazsm12@gmail.com';
+        $mail->Password   = 'cpfpuatpvlggsywm'; // Gmail App Password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
+        $mail->Port       = 587;
 
-        $mail->setFrom($email, $name);
-        $mail->addAddress('yourgmail@gmail.com');
+        // Sender (IMPORTANT: always your own email)
+        $mail->setFrom('rohitazsm12@gmail.com', 'Website Contact Form');
+        $mail->addReplyTo($email, $name);
 
+        // ✅ MAIN RECEIVER
+        $mail->addAddress('irengineersir@gmail.com');
+
+        // ✅ CC RECEIVER
+        $mail->addCC('info@irengineers.org');
+
+        // Email Content
         $mail->isHTML(true);
-        $mail->Subject = "Contact Form: $subject";
+        $mail->Subject = "New Contact Form Inquiry | $subject";
+
+        // Professional HTML Email Layout
         $mail->Body = "
-            <h3>New Contact Form Submission</h3>
-            <p><b>Name:</b> $name</p>
-            <p><b>Email:</b> $email</p>
-            <p><b>Phone:</b> $phone</p>
-            <p><b>Message:</b><br>$message</p>
+        <div style='font-family: Arial, sans-serif; background:#f4f6f8; padding:20px;'>
+            <div style='max-width:600px; margin:auto; background:#ffffff; padding:25px; border-radius:8px;'>
+                <h2 style='color:#1f2937; border-bottom:2px solid #f97316; padding-bottom:10px;'>
+                    New Enquiry Received – IR Engineer
+                </h2>
+
+                <table width='100%' cellpadding='8' cellspacing='0'>
+                    <tr>
+                        <td width='30%'><strong>Name:</strong></td>
+                        <td>$name</td>
+                    </tr>
+                    <tr style='background:#f9fafb;'>
+                        <td><strong>Email:</strong></td>
+                        <td>$email</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Phone:</strong></td>
+                        <td>$phone</td>
+                    </tr>
+                    <tr style='background:#f9fafb;'>
+                        <td><strong>Subject:</strong></td>
+                        <td>$subject</td>
+                    </tr>
+                </table>
+
+                <p style='margin-top:20px;'><strong>Message:</strong></p>
+                <div style='background:#f3f4f6; padding:15px; border-radius:5px;'>
+                    $message
+                </div>
+
+                <p style='margin-top:25px; font-size:12px; color:#6b7280;'>
+                    This email was sent from the website contact form.
+                </p>
+            </div>
+        </div>
         ";
 
         $mail->send();
 
-        // ✅ REDIRECT AFTER SUCCESS
+        // Redirect after success
         header("Location: thank-you.php");
         exit;
 
